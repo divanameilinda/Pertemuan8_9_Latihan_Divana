@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman dengan Navigasi Bar</title>
+    <!-- Menghubungkan file CSS eksternal untuk memberikan gaya pada halaman -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <style>
+    h1 {
+      color: rgb(0, 0, 0);
+      font-size: small;
+      font-weight: normal;
+      font-family: "Times New Roman", Times, serif;
+      padding-left: 0px;
+    }
+
+    b {
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <!-- Bagian Header -->
+    <header class="header">
+      <div class="red-bar"></div>
+      <div class="header-content">
+        <img src="image/logouty.png" alt="Logo UTY" class="logo" />
+        <h1>
+          <i class="uil-key-skeleton"></i>
+          Hei,
+          <b>Divana Meilinda Putri</b>
+        </h1>
+      </div>
+    </header>
+
+    <!-- Kontainer Utama: membungkus sidebar dan konten -->
+    <div class="container">
+      <!-- Sidebar: berisi menu navigasi -->
+      <div class="sidebar">
+        <div class="sidebar-search">
+          <div class="redbar"></div>
+          <div class="search-bar">
+            <input type="text" placeholder="Pencarian Menu" />
+            <button type="submit">
+              <i class="uil-multiply"></i>
+            </button>
+          </div>
+        </div>
+        <ul class="nav">
+          <!-- Link navigasi untuk menu HOME -->
+          <li>
+            <a href="#"><i class="uil-user"></i> Profil Dosen</a>
+          </li>
+          <!-- Link navigasi untuk menu 1 -->
+          <li><a href="#">Menu Dosen</a></li>
+          <!-- Link navigasi untuk menu 2 -->
+          <li><a href="#">Histori Mengajar</a></li>
+          <!-- Link navigasi untuk menu 3 -->
+          <li><a href="#">Rekap Absensi MHS</a></li>
+          <li><a href="#">Input Berita Acara</a></li>
+          <li><a href="#">Menu Dosen Wali</a></li>
+          <li><a href="#">Bimbingan KRS</a></li>
+          <li><a href="#">Mahasiswa Key in</a></li>
+          <li><a href="#">Kelas Bimbingan</a></li>
+        </ul>
+      </div>
+
+      <!-- Konten utama halaman -->
+      <div class="content">
+        <!-- Paragraf yang berisi teks deskripsi -->
+        <p>ISI paragraph dari bab sebelumnya</p>
+      </div>
+    </div>
+
+    <!-- Bagian Footer -->
+    <footer class="footer">
+      <!-- Paragraf untuk informasi footer -->
+      <p>UNIVERSITAS TEKNOLOGI YOGYAKARTA</p>
+    </footer>
+  </body>
+</html>
